@@ -11,7 +11,7 @@ PORT = int(os.getenv("APP_PORT", 4000))
 def home():
     # Logic to differentiate between environments
     if ENVIRONMENT == "live":
-        return "Welcome to Live"
+        return "Welcome to Live - VERSION 2.0 (Automated!)"
     return "Welcome to Dev"
 
 if __name__ == "__main__":
